@@ -1,0 +1,38 @@
+table,tr,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    height: 80px;
+    width: 280px;
+    border-radius: 5px;
+    background-color: rgb(24,24,24);
+}
+table tr td{
+    border: 5px;
+}
+table{
+    box-shadow: 0 10px 10px 10px rgb(3, 11, 21,2.7);
+}
+button{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: gray;
+    color: whitesmoke;
+    font-size: x-large;
+    cursor: pointer;
+}
+input{
+    height: 80px;
+    width: 280px;
+    border: none;
+    background-color: black;
+    color: wheat;
+    text-align: right;
+    font-size: x-large;
+
+}
+.equal{
+    background-color: orangered;
+}

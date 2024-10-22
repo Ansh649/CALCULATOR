@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+</head>
+<body>
+    <h1>Calculator</h1>
+    <table>
+        <tr>
+            <td colspan="4">
+                <input type="text" id="t1" disabled >
+            </td>
+        </tr>
+        <tr>
+            <td><button onclick="cleardata()">AC</button></td>
+            <td><button onclick="btnpress('%')">%</button></td>
+            <td><button onclick="btnpress('/')">/</button></td>
+            <td><button onclick="backrow()">&bkarow; </button></td>
+        </tr>
+
+        <tr>
+            <td><button onclick="btnpress('9')">9</button></td>
+            <td><button onclick="btnpress('8')">8</button></td>
+            <td><button onclick="btnpress('7')">7 </button></td>
+            <td><button onclick="btnpress('+')">+</button></td>
+        </tr>
+
+        <tr>
+            <td><button onclick="btnpress('6')">6 </button></td>
+            <td><button onclick="btnpress('5')">5 </button></td>
+            <td><button onclick="btnpress('4')">4 </button></td>
+            <td><button onclick="btnpress('-')">- </button></td>
+        </tr>
+
+        <tr>
+            <td><button onclick="btnpress('3')">3 </button></td>
+            <td><button onclick="btnpress('2')">2 </button></td>
+            <td><button onclick="btnpress('1')">1 </button></td>
+            <td><button onclick="btnpress('*')">* </button></td>
+        </tr>
+
+        <tr>
+            <td><button onclick="btnpress('00')">00 </button></td>
+            <td><button onclick="btnpress('0')">0 </button></td>
+            <td><button onclick="btnpress('.')">. </button></td>
+            <td><button class="equal" onclick="Result('=')">= </button></td>
+        </tr>
+    </table>
+</body>
+</html>
